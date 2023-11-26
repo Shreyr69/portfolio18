@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHREY PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38cbaa94c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="BLogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#services" >Services</a></li>
+                    <li><a href="#portfolio" >Work</a></li>
+                    <li><a href="#blog" >Blogs</a></li>
+                    <li><a href="#contact" >Contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB Developer</p>
+                <h1>Hi , I'm<span> SHREY RAI</span><br>from INDIA</h1>
+            </div>
+        </div>
+    </div>
+
+
+<!------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src="fpic1.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello everyone, I am Shrey Rai. I live in Greater Noida, Uttar Pradesh.
+                   Currently i am persuing my B.tech in Computer Science and Engineering from Lovely professional University(LPU).
+                   I am a Web developer Enthusiast and my projects are used by many global recognised MNC companies.
+                </p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>Project Developer</span><br>Help in making projects of different companies </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Digital portfolio showcase website</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Persuing my B.TECH in CSE from LPU</li>
+                        <li><span>2022</span><br>Completed my schooling from GAURS INTERNATIONAL SCHOOL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div class="box">
+              <i class="fa-solid fa-link"></i>
+              <h2>Web designing</h2>
+              <p>............</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div class="box">
+              <i class="fa-brands fa-dropbox"></i>
+              <h2>UI/UX Design</h2>
+              <p>............</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div class="box">
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h2>Project developer</h2>
+              <p>............</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+              <img src="work-1.png">
+              <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>The app connects you to the talented people around the world.
+                      Download it from playstore.</p>
+                      <a href="https://play.google.com/store/search?q=instagram&c=apps" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="work-2.png">
+              <div class="layer">
+                  <h3>Music App</h3>
+                  <p>The app which provides you the latest music,podcasts and download feature.
+                      Download it from playstore.</p>
+                      <a href="https://play.google.com/store/search?q=spotify&c=apps" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="work-3.png">
+              <div class="layer">
+                  <h3>Online Shopping App</h3>
+                  <p>The app shows the real time availability of daily needy things near you as meadium of shopping.
+                      Download it from playstore.</p>
+                      <a href="https://play.google.com/store/search?q=amazon&c=apps" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+ <!--blog-->
+ <div id="blog">
+    <div class="container">
+        <h1 class="sub-title">Blogs</h1>
+        <div class="services-list">
+          <div class="box">
+              <!--<i class="fa-solid fa-link"></i>-->
+              <h2>Google won’t say if companies beyond Spotify got secret special app store deals</h2>
+              <p>After Google confirmed yesterday that it gave Spotify a sweetheart deal on Android app store fees, we were curious if dating company Bumble or any of the other 80 or so developers that have joined Google’s “User Choice Billing” program were similarly given an alternative arrangement or other sweeteners.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div class="box">
+              <!--<i class="fa-brands fa-dropbox"></i>-->
+              <h2>Threads users can keep their posts off Instagram and Facebook now</h2>
+              <p>Many Threads users are now saying they have the ability to opt out of having their posts shown on Instagram and Facebook. To keep Threads posts from showing up Meta’s other platforms, tap the two lines in the top right of the Threads app > Privacy > Suggesting posts on other apps — two switches let users turn off suggestions on Instagram or Facebook.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div class="box">
+              <!--<i class="fa-brands fa-app-store-ios"></i>-->
+              <h2>Valve reveals the Steam Deck OLED</h2>
+              <p>On October 5th, we saw the first proof a refreshed Steam Deck was nigh. Now, Valve is officially revealing the $549 and up Steam Deck OLED, which starts shipping on November 16th.
+                It’s an overhauled version of Valve’s handheld gaming PC but not one that’s focused on performance — the company is sticking with its plan not to produce a faster handheld for the next couple of years.</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i> shreyrai69@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> +919628646700</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/shrey.rai.007/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Shreyr69/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/ShreyRai369340/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/shrey-rai-639633283/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <a href="my-cv.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg">We will never share your details with anyone else</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Shrey Rai.</p>
+    </div>
+  </div>
+
+  
+  
+  <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+}
+
+for (tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+    }
+
+ </script>
+  
+ <script>
+
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+
+  </script> 
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyWC-JrVVu6UUTB-FER12oDP7GoNRjon6E4xhRIHSByyXw6yWkLPH6VbdYZvzBV_Jc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+  
+</body>
+</html>
